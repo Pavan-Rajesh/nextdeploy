@@ -23,15 +23,15 @@ export default async function Image() {
         style={{
           fontSize: 128,
           backgroundColor: "blue",
-          width: 50,
-          height: 50,
+          width: "100%",
+          height: "100%",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          color: "blue",
+          color: "yellow",
         }}
       >
-        About Acme
+        <div> About Pavan</div>
       </div>
     ),
     // ImageResponse options
@@ -39,11 +39,6 @@ export default async function Image() {
       // For convenience, we can re-use the exported opengraph-image
       // size config to also set the ImageResponse's width and height.
       ...size,
-      fonts: [
-        {
-          weight: 400,
-        },
-      ],
     }
   );
 }
