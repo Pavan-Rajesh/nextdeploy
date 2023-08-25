@@ -22,12 +22,13 @@ export default async function Image() {
       <div
         style={{
           fontSize: 128,
-          background: "white",
+          background: "blue",
           width: "100%",
           height: "100%",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          color: "yello",
         }}
       >
         About Acme
